@@ -43,6 +43,10 @@ Install Frida :-
 
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial#installation
 
+Then Frida Hooks :- 
+
+https://11x256.github.io/Frida-hooking-android-part-1/
+
 Cuttlefish WebRTC :-
 
 https://source.android.com/docs/setup/create/cuttlefish-ref-webrtc

@@ -33,7 +33,17 @@ cvd-host_package.tar.gz
 
 vnc support removed from later versions of cuttlefish, WebRTC is the way to go
 
-Articles :-
+install app :-
+    adb install -r app-debug.apk
+
+start app :-
+    adb shell am start -a  android.intent.action.MAIN -n com.example.myapplication/.MainActivity
+    
+Install Frida :-
 
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial#installation
+
+Cuttlefish WebRTC :-
+
+https://source.android.com/docs/setup/create/cuttlefish-ref-webrtc
 
